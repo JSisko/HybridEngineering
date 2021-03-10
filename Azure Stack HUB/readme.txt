@@ -1,1 +1,1 @@
-Current contents of Azure Stack Hub folder update 3/9/2021
+Current contents of Azure Stack Hub folder updated 3/9/2021
