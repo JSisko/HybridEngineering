@@ -31,8 +31,23 @@ Lets verify the IP address and host name of the AS/400 which will be used to ver
 
 *Need SonicWall Commands for this section for initial configuration
 
+#### Reference Point 3 (Border Router) and Point 4 (TOR Switch)
+
+*Need most recent info on ASH networking design, ensure to talk about PIP's as that leads into next section
+
+#### Reference Point 5 (Public IP) and Point 6 (SonicWall NS*v*)
+
+*Need info/scripts to deploy a PIP and assign to a resource in ASH
+
+*Need steps to download and side load NSv and configure Peering VPN
+
+*Need steps to configure VPN from NSv to SonicWall appliance in LAN
 
 
+#### Reference Point 7 (Function) and Point 8 (Linux based SQL)
 
+*Need Python based function to Query AS/400 dataset
 
+*Need CentOS based VM with K8S deployment that we will use to deploy SQL 2019
 
+#### Reference Point 9 (Egress of K8S) through Point 16 (Ingress of NSv on second SU)
