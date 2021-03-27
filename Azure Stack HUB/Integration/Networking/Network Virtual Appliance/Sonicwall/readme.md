@@ -5,7 +5,7 @@ The SonicWall NS*v* provides enhanced networking between legacy network environm
 This reference document details steps to integrate SonicWall appliances in a customers local area network that will establish connectivity from an AS/400 platform to a SQL instance running on Azure Stack Hub.
 
 
-<img src="images/Reference_Diagram_Azure_Stack_Hub_Sonicwall_NVA_ver_003.png" width="50%" />
+<img src="images/Reference_Diagram_Azure_Stack_Hub_Sonicwall_NVA_ver_003.png" width="75%" />
 
 ## Some thoughts on the solution
 
@@ -50,4 +50,14 @@ Lets verify the IP address and host name of the AS/400 which will be used to ver
 
 *Need CentOS based VM with K8S deployment that we will use to deploy SQL 2019
 
-#### Reference Point 9 (Egress of K8S) through Point 16 (Ingress of NSv on second SU)
+#### Reference Point 9 (Egress of K8S) through Point 17 (Egress of NSv on second SU)
+
+*Need to focus on detailing (concepts) how to setup peering between the two scale units
+
+#### Reference Point 18 (Ingress to SQL Server) through Point 20 (Web App)
+
+*Need info/scripts on Deploying Web App
+
+#### Reference Point 21 (Ingress to Web App) through Point 26 (Internet user)
+
+*Need some content around Web App insights
